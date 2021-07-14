@@ -1,0 +1,6 @@
+<br>
+<%= form_with model: Post.new do |form| %>
+<%= form.label :body %> 
+<%= form.text_field :body, placeholder: "What do you want to share?" %>  <br>
+<%= form.submit "Submit"%>
+<% end %>

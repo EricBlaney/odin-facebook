@@ -1,0 +1,14 @@
+<% @posts.each do |post| %>
+
+    <div> 
+
+    <strong> <i> Author: 
+     <%= post.user.first_name%></i> </h2>
+    </div>
+  
+    <div>
+    <div>
+       <p> <%= post.body %> </p>
+    </div>
+    
+<% end %>
